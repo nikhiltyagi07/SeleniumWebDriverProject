@@ -13,6 +13,8 @@ public class SecondTestCase {
 
 //		Open URL:  https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		
+//		Wait for 5 second
 		Thread.sleep(5000);
 
 //		Element find by name and auto fill text
@@ -22,8 +24,10 @@ public class SecondTestCase {
 //		Element find by tagname and Click to "login" button for login into web site
 		driver.findElement(By.tagName("button")).click();
 		
+//		Wait for 5 second
 		Thread.sleep(5000);
 		
+//		Element find by tagname and Click to "My Info" button 
 		driver.findElement(By.linkText("My Info")).click();
 		
 		
