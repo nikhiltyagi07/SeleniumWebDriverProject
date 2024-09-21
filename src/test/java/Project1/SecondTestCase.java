@@ -30,6 +30,9 @@ public class SecondTestCase {
 //		Element find by tagname and Click to "My Info" button 
 		driver.findElement(By.linkText("My Info")).click();
 		
+//		Wait for 5 second
+		Thread.sleep(5000);
+		
 		
 	}
 
