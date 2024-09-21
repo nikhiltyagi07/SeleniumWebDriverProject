@@ -20,7 +20,7 @@ public class FacebookLogin {
 		driver.findElement(By.id("email")).sendKeys("9873326870");
 		driver.findElement(By.name("pass")).sendKeys("Smartboy@347");
 		
-//		Element find by tagname and Click to "login" button for login into web site
+//		Element find by tagname and Click to "login" button for login into facebook
 		driver.findElement(By.tagName("button")).click();
 
 	}
