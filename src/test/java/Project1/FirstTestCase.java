@@ -24,7 +24,9 @@ public class FirstTestCase {
 
 //		Validate title should be   "Your Store"
 		String act_title = driver.getTitle();
+		
 		if (act_title.equals("Your Store")) {
+			
 			System.out.println("Test case Passed");
 		} else {
 			System.out.println("Test case Failed");
