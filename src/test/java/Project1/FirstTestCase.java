@@ -32,8 +32,6 @@ public class FirstTestCase {
 			System.out.println("Test case Failed");
 		}
 
-//		Close the browser
-		driver.quit();
 	}
 
 }
