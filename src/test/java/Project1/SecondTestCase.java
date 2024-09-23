@@ -32,8 +32,7 @@ public class SecondTestCase {
 		
 //		Wait for 5 second
 		Thread.sleep(5000);
-		
-		
+			
 	}
 
 }

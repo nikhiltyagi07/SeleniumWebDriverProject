@@ -22,6 +22,8 @@ public class FacebookLogin {
 		
 //		Element find by tagname and Click to "login" button for login into facebook
 		driver.findElement(By.tagName("button")).click();
+		
+		System.out.println("Login Successful");
 
 	}
 
