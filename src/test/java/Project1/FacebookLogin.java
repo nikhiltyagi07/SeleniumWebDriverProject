@@ -2,6 +2,7 @@ package Project1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class FacebookLogin {
@@ -13,7 +14,7 @@ public class FacebookLogin {
 //		Open URL:  https://www.facebook.com/
 		driver.get("https://www.facebook.com/");
 		
-//		Wait for 5 second
+//		Wait for 2 second
 		Thread.sleep(2000);
 
 //		Element find by id and auto fill text
@@ -24,7 +25,14 @@ public class FacebookLogin {
 		driver.findElement(By.tagName("button")).click();
 		
 		System.out.println("Login Successful");
-
-	}
+		
+		
+		
+//		Wait for 20 second
+		Thread.sleep(20000);
+		
+//		Close the browser
+		driver.quit();
+;	}
 
 }
